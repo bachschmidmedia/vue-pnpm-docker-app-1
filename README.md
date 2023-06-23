@@ -8,7 +8,9 @@ Just clone this repository with git
 git clone https://github.com/bachschmidmedia/vue-pnpm-docker-app-1 
 ```
 
-## Docker Setup
+## Docker
+
+### Dev Setup
 
 As should install docker and run this commands to build the image / container.
 
@@ -25,6 +27,20 @@ docker compose up -d
 ```
 
 thats it.
+
+### Run a shell into docker container
+
+```bash
+docker compose exec app /bin/sh 
+```
+
+### Build stuff
+
+```bash
+# With this command you can build the application
+# It should be built inside the dist/ directory
+docker compose exec app /bin/sh -c "pnpm build"
+```
 
 # Old Readme:
 
