@@ -1,5 +1,25 @@
 # vue-pnpm-docker
 
+## Docker Setup
+
+As should install docker and run this commands to build the image / container.
+
+```bash
+# Build the image / container from the 
+# docker file via docker compose
+docker compose build
+
+# Start the container
+docker compose up
+
+# Start it in the background
+docker compose up -d
+```
+
+thats it.
+
+# Old Readme:
+
 ## Project setup
 ```
 pnpm install
