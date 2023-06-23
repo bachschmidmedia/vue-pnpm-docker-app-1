@@ -1,5 +1,13 @@
 # vue-pnpm-docker
 
+## Clone this repo
+
+Just clone this repository with git
+
+```bash
+git clone https://github.com/bachschmidmedia/vue-pnpm-docker-app-1 
+```
+
 ## Docker Setup
 
 As should install docker and run this commands to build the image / container.
